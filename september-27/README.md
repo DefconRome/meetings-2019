@@ -1,10 +1,17 @@
 ## The layman guide to ChakraCore Exploitation, by chqmatteo
 
-In the past few months the hype grew around the announcement of a novel open source tool for Reverse Engineering (RE) named Ghidra and developed by NSA which was set to be released in March 2019.
-Now that Ghidra hit the web it is time to get our hands dirty and see if it can keep up with all the promises, finally providing a great (free) alternative to IDA pro. 
-In the talk we will go through the main features of the program, explore its best selling points and compare it with its main competitor. We will also see a quick demo on a simple executable to show a possible real life scenario.
+A walkthrough in the lands of libChackraCore.so.
+This talk is an introduction to the exploitation of JavaScript, an untyped language in which types are a pot of gold for bugs.
+The focus is on ChakraCore and CVE-2019-0567, a bug discovered by Lokihardt of Google Project Zero and recently proposed as a challenge of Trend Micro CTF 2019.
+It is a type confusion caused by a broken assumption during the type transition of an object.
 
 ## Smashing the SOP for fun and profit, by bonaff and TheNodi
 
-An introduction to fuzzers showing strengths and weakness of this approach in automatic bug detection. In particular we will dive into the usage and the internals of one of the most popular fuzzers of this time: American Fuzzy Lop. We will learn not only how to use it but also some useful strategies that can be applied to specified classes of programs to improve the performance of AFL.
-
+Web sites are slaves of a program called "Same Origin Policy (SOP)".
+Due to this program, the reality perceived by web sites is not the actual reality.
+It is a dream world which is almost similar to the real world.
+But since web sites have no idea about this, they react to every situation in the dream world as they do in the real world.
+Do not try and bend the spoon. That's impossible.
+Instead, only try to realize the truth: all web sites are in the same world.
+In the talk, we will show the rules all web sites are constrained by when they try to communicate with each other.
+And, of course, because you are the chosen ones, you will learn how to bend them to your will and join us in the marvelous world of web exploiting.
