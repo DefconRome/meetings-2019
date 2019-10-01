@@ -1,6 +1,6 @@
 ## The layman guide to ChakraCore Exploitation, by chqmatteo
 
-A walkthrough in the lands of libChackraCore.so.
+A walkthrough in the lands of libChakraCore.so.
 This talk is an introduction to the exploitation of JavaScript, an untyped language in which types are a pot of gold for bugs.
 The focus is on ChakraCore and CVE-2019-0567, a bug discovered by Lokihardt of Google Project Zero and recently proposed as a challenge of Trend Micro CTF 2019.
 It is a type confusion caused by a broken assumption during the type transition of an object.
